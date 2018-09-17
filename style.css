@@ -124,7 +124,6 @@ li {
   padding: 5px 0px;
   padding-bottom: 20px;
   border-bottom: 1px solid #e6e4e4;
-  
   padding-right: 2.5px;
   background: white;
 }
@@ -137,6 +136,19 @@ li#right{
 
 li#left {
    border-left: 1px solid #e6e4e4;
+   position: relative;
+   right: 31px;
+}
+
+img#me {
+   width: 160px;
+   height: 160px;
+   border-radius: 100%;
+   border-bottom: 15px solid white;
+   border-top: 15px solid white;
+   border-right: 15px solid white;
+   border-left: 15px solid white;
    position: absolute;
-   left: 18px;
+   top: 546px;
+   left: 659px;
 }
