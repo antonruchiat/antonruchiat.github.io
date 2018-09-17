@@ -1,0 +1,142 @@
+#myhead {
+  background-image: url(img/background.jpg);
+  width: 899px;
+  padding: 300px;
+  margin: 0px auto;
+  background-size: 100% 100%;
+  opacity: 0.9;
+}
+
+.opqion {
+  border-right: 1px solid #e6e4e4;
+  border-left: 1px solid #e6e4e4;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+h4 {
+  margin-top: 0px;
+  font-family: helvetica;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: left;
+  color: #f3f2f2;
+  position: absolute;
+  top: 180px;
+  left: 90px;
+}
+
+p {
+  position: absolute;
+  top: 410px;
+  left: 1100px;
+  color: white;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+stong {
+   color: #69bffd;
+   font-weight: bold;
+}
+
+#home {
+  height: 12px;
+  width: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 2px;
+  margin-right: 100px;
+}
+
+#about {
+   height: 12px;
+   width: 12px;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-left: 2px;
+   margin-right: 100px;
+}
+
+#blog {
+   height: 12px;
+   width: 12px;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-left: 2px;
+   margin-right: 100px;
+}
+
+#contact {
+   height: 12px;
+   width: 12px;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-left: 2px;
+   margin-right: 100px;
+}
+
+#resume {
+   height: 12px;
+   width: 12px;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-left: 2px;
+   margin-right: 100px;
+}
+
+#Portfolio {
+   height: 12px;
+   width: 12px;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-left: 2px;
+   margin-right: 100px;
+}
+
+#ops li {
+  float: left;
+  display: inline-block;
+  list-style: none;
+}
+
+#ops li a {
+  font-family: veranda;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 30px;
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  padding: 5px 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e4e4;
+  
+  padding-right: 2.5px;
+  background: white;
+}
+
+li#right{
+   border-right: 1px solid #e6e4e4;
+   position: absolute;
+   right: 18px;
+}
+
+li#left {
+   border-left: 1px solid #e6e4e4;
+   position: absolute;
+   left: 18px;
+}
