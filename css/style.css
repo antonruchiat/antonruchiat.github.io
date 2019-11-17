@@ -6,6 +6,7 @@ font-family: 'Aldrich', sans-serif; */
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Quantico', sans-serif;
 }
 
 .nav-bar {
@@ -24,13 +25,13 @@ body {
     width: auto;
 }
 
-h1, h3, p{
+.name{
     margin: 0;
     padding: 0;
     position: absolute;
 }
 
-h1 {
+h1.name-h1 {
     top: 10rem;
     left: 12rem;
     font-family: 'Aldrich', sans-serif;
@@ -40,7 +41,7 @@ h1 {
     letter-spacing: 16px;
 }
 
-h3 {
+h3.exper {
     top: 15rem;
     left: 12rem;
     font-family: 'Aldrich', sans-serif;
@@ -50,7 +51,7 @@ h3 {
     line-height: 30px;
 }
 
-p {
+p.paragrap {
     right: 3rem;
     top: 43rem;
     font-family: 'Quantico', sans-serif;
@@ -63,14 +64,14 @@ email {
     color: blue;
 }
 
-nav {
-    border: #000000 1px solid;
+nav.all-nav {
+    border: #eaeaea 1px solid;
     border-top: none;
     width: auto;
     height: 6rem;
 }
 
-ul {
+ul.ul-nav {
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -79,12 +80,12 @@ ul {
     top: 2.5rem;
 }
 
-a {
+a.a-nav {
     list-style: none;
     text-decoration: none;
 }
 
-li {
+li.li-nav {
     display: flex;
     justify-content: center;
 }
@@ -109,4 +110,84 @@ img.nav-img {
 
 .nav-img1 {
     width: 2vh;
+}
+
+section.describe {
+    display: flex;
+    width: auto;
+    height: 35em;
+    background-color: #f5f5f5;
+    padding: 5em;
+ 
+}
+
+article.iam {
+    flex: 1;
+    text-align: justify;
+    padding: 2em 7em 2em 2em;
+    
+}
+
+article.personal {
+    flex: 1;
+    text-align: justify;
+    padding: 2em 7em 2em 2em;
+    
+}
+ 
+article.expertise {
+    flex: 1;
+    padding: 2em 2em 2em 2em;
+    
+    /* position: relative;
+    left: 10em; */
+}
+
+h4.h4-section {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    font-family: 'Righteous', cursive;
+    font-size: 27px;
+    margin: 0;
+}
+
+p.p-iam {
+    text-align: center;
+}
+
+ul.ul-personal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+.figure {
+    margin: 0;
+}
+
+img.desktop {
+    width: 4em;
+    height: 4em;
+}
+
+img.dev {
+    width: 4em;
+    height: 4em;
+}
+
+.contain-web {
+    font-size: 1.5em;
+}
+
+.contain-webdev {
+    font-size: 1.5em;
+}
+.web {
+    padding-bottom: 3em;
+}
+
+span {
+    font-weight: bold;
 }
